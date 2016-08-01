@@ -416,6 +416,21 @@ a:hover{
     font-weight: 300;
 }
 
+.block{
+    padding: 0;
+    margin: 0;
+}
+
+.excerpt .row{
+    max-width: 100%;
+    margin: 0;
+}
+
+.block-image img{
+    height: 500px;
+    width: 100%;
+}
+
 .footer {
     height: 70px;
     width: 100%;
