@@ -242,12 +242,13 @@ body {
     font-size: 12px;
     background-color: white;
     border-bottom: 1px solid #adadad;
-    padding: 25px;
+    padding: 20px;
     transform: translateY(0);
     height: 100px;
     top: 0;
     bottom: 90%;
-    color: #4b4b4b;
+    color: #333;
+    z-index: 1000;
     text-shadow: none;
 }
 
@@ -278,13 +279,13 @@ a:hover{
 
 .brand p{
     font-size: 30px;
-    line-height: 60px;
+    line-height: 200%;
     transition: all 0.3s;
 }
 
 .brand p:hover{
     font-size: 36px;
-    line-height: 70px;
+    line-height: 200%;
 }
 
 .hidden{
@@ -438,7 +439,7 @@ a:hover{
     padding-right: 50px;
     padding-left: 50px;
     color: grey;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Julius Sans One', sans-serif;
     font-size: 18px;
 }
 
@@ -479,6 +480,10 @@ a:hover{
     margin-right: 10px;
 }
 
+.excerpt-black .line{
+    border-color: white;
+}
+
 .top .line {
     width: 120px;
     border: 1px solid white;
@@ -500,6 +505,7 @@ a:hover{
     font-size: 35px;
     padding: 10px;
     transition: all 0.2s;
+    z-index: 2;
 }
 
 .arrow a:hover{

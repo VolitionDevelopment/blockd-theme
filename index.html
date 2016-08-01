@@ -5,7 +5,7 @@
     <title>Block'd Theme</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Bungee|Fira+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Ceviche+One|Fira+Sans|Julius+Sans+One" rel="stylesheet">
     <link rel="stylesheet" href="css/blockd.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
 </video>
 
 <div class="container">
-    <div class="top cover">
+    <div class="top cover" id="top">
         <div class="top-wrapper">
             <h1>Block'd Theme</h1>
             <p>A theme for the common crafter</p>
@@ -27,23 +27,24 @@
         <div class="row navigation">
             <div class="nav-wrapper">
                 <div class="col-md-1 brand hidden"><a href="#"><p>Block'd</p></a></div>
-                <div class="col-md-2 col-md-offset-1 forums"><a href="#"><i class="fa fa-3x fa-comments"></i> <p>Forums</p></a></div>
-                <div class="col-md-2 store"><a href="#"><i class="fa fa-3x fa-money"></i> <p>Store</p></a></div>
-                <div class="col-md-2 home"><a href="#"><i class="fa fa-3x fa-home"></i> <p>Home</p></a></div>
-                <div class="col-md-2 staff"><a href="#"><i class="fa fa-3x fa-gavel"></i> <p>Staff &amp; Rules</p></a></div>
-                <div class="col-md-2 contact"><a href="#"><i class="fa fa-3x fa-envelope"></i> <p>Contact</p></a></div>
+                <div class="col-md-2 col-md-offset-1 forums"><a href="#about"><i class="fa fa-3x fa-exclamation"></i> <p>About</p></a></div>
+                <div class="col-md-2 store"><a href="#why"><i class="fa fa-3x fa-question-circle-o"></i> <p>Why</p></a></div>
+                <div class="col-md-2 home"><a href="#top"><i class="fa fa-3x fa-home"></i> <p>Home</p></a></div>
+                <div class="col-md-2 staff"><a href="#pricing"><i class="fa fa-3x fa-money"></i> <p>Pricing</p></a></div>
+                <div class="col-md-2 contact"><a href="#ordering"><i class="fa fa-3x fa-envelope"></i> <p>Ordering</p></a></div>
             </div>
         </div>
 
+        <h2 class="arrow"><a href="#about" class="glyphicon glyphicon-chevron-down"></a></h2>
+
         <video class="bgvid" playsinline preload="auto" loop="loop" autoplay="false" muted="muted" volume="0">
             <source src="images/compress.mp4" type="video/webm"
-                    responsive-src="assets/img/rubik_responsive.jpg">
             <source src="http://hpbt.net/images/videos/compress.mp4" type="video/mp4">
             Video not supported
         </video>
     </div>
 
-    <div class="excerpt excerpt-white">
+    <div class="excerpt excerpt-white" id="about">
         <div class="excerpt-wrapper">
             <h2>About Block'd</h2>
             <div class="separator">
@@ -54,43 +55,52 @@
             <p class="lead">Block'd is an elegant landing page fit for any Minecraft server website. If you're tired of using Enjin's awful themes or paying high prices for Zenforo themes, you should be interested in Block'd.</p>
         </div>
     </div>
-    <div class="spacer-md"></div>
-    <div class="excerpt excerpt-white">
-        <div class="row">
-            <div class="col-md-6 block">
-                <div class="excerpt-wrapper">
-                    <h2>Section Images</h2>
-                    <div class="separator">
-                        <div class="line"></div>
-                        <h3><i class="fa fa-cubes"></i></h3>
-                        <div class="line"></div>
-                    </div>
-                    <p class="lead">Block'd allows you to cut a section in half: one half for text and the other for a beautiful cinematic view.</p>
-                </div>
+    <div class="excerpt excerpt-black" id="why">
+        <div class="excerpt-wrapper">
+            <h2>Why I made it</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
             </div>
-            <div class="col-md-6 block">
-                <div class="block-image">
-                    <img src="http://i1073.photobucket.com/albums/w384/Pro219/thingyfields-1000.jpg">
+            <p class="lead">Truthfully, I think Minecraft servers should be able to live up to higher standards of web design. Practically every server nowadays is either a crappy-looking Enjin website or a decent-looking (though very expensive) Zenforo website. I aim to fill a gap in the market: a <u>slightly cheaper</u> website template that is elegant, simple, and user-friendly.</p>
+
+            <p>Though I would never refuse money to customize a theme for a server</p>
+        </div>
+    </div>
+    <div class="spacer-md"></div>
+    <div class="excerpt excerpt-white" id="pricing">
+        <div class="excerpt-wrapper">
+            <h2>Pricing</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="lead">Let's negotiate</p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="excerpt excerpt-white">
-        <div class="row">
-            <div class="col-md-6 block">
-                <div class="block-image">
-                    <img src="http://i1073.photobucket.com/albums/w384/Pro219/thingyfields-1000.jpg">
-                </div>
+    <div class="excerpt excerpt-grey" id="ordering">
+        <div class="excerpt-wrapper">
+            <h2>Ordering</h2>
+            <div class="separator">
+                <div class="line"></div>
+                <h3><i class="fa fa-cubes"></i></h3>
+                <div class="line"></div>
             </div>
-            <div class="col-md-6 block">
-                <div class="excerpt-wrapper">
-                    <h2>Section Images</h2>
-                    <div class="separator">
-                        <div class="line"></div>
-                        <h3><i class="fa fa-cubes"></i></h3>
-                        <div class="line"></div>
-                    </div>
-                    <p class="lead">This side too</p>
+            <p class="lead">To order, send me an email with your order details or add me on Skype.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Email</h3>
+                    <p class="lead">jackson@volition-dev.com</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Skype</h3>
+                    <p class="lead">kingofkingshf</p>
                 </div>
             </div>
         </div>
